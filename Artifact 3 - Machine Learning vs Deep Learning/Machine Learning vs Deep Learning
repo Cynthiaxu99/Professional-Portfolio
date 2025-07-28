@@ -1,0 +1,58 @@
+##### Real World Example 1
+
+Telecom companies collect gigantic amounts of structured data 
+from customer contacts, billing history, usage patterns, and support calls. 
+To reduce churn rate, these companies utilize 
+Support Vector Machines (SVM) and other machine learning models to 
+find trends in previous data that indicate a client is about to quit.
+
+Verizon, for example, leverages predictive analytics to 
+identify accounts with a history of service concerns or plan downgrades. 
+Once identified, these consumers can be actively targeted with 
+specific retention offers, discounts, or upgraded service plans. T
+hey also use churn models to alert their customer service representatives, 
+allowing them to act before the consumer decides to cancel. 
+This not only increases retention, but also lowers the cost of gaining new consumers.
+
+#### Machine learning vs Deep learning in example 1
+
+Machine learning models like SVMs are well-suited for structured data 
+where the goal is binary classification (e.g., will a customer leave or stay). 
+Telecom data like contract length, usage, and billing history are structured features. 
+SVM can determine the optimal boundary between churn and non-churn customers 
+It's efficient and effective with moderate-sized datasets 
+and doesn't require unnecessary computing resources.
+
+This use case is not suitable for deep learning models. 
+Deep learning algorithms, such as neural networks, 
+tend to overfit limited or structured datasets 
+and require a huge quantity of data to perform effectively. 
+They are also more difficult to train and comprehend, 
+providing no advantage over traditional models in this type of challenge.
+
+
+
+##### Real World Example 2
+
+Apple Face ID analyzes a user's face geometry 
+using Convolutional Neural Networks (CNNs), 
+which map hundreds of infrared dots onto the surface to create a depth map. 
+This deep learning model evolves over time, 
+detecting minor variations such as facial hair, glasses, or aging. 
+It is used not simply to unlock phones, 
+but also to make secure payments and authenticate apps.
+
+#### Machine learning vs Deep learning in example 2
+CNNs are specifically built to operate on picture data. 
+They use filters and many layers to recognize spatial hierarchies in pixel data 
+(such as edges, textures, and forms). 
+This eliminates the need for manual feature engineering and 
+enables the model to learn directly from raw photos, 
+making it suitable for facial recognition and object detection.
+
+Machine learning models are not suitable in this case 
+because it requires a manual extraction of image attributes 
+(e.g., color histograms, shapes), 
+which is time-consuming and ineffective. 
+These models also struggle to represent spatial relationships in pixels.
+
